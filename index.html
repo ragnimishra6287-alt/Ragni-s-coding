@@ -1,148 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ragini's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragini's Coding</title>
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(to right, #667eea, #764ba2);
-            color: #333;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
         }
 
         header {
-            text-align: center;
-            padding: 60px 20px;
-            color: white;
+            padding: 40px;
         }
 
-        header h1 {
-            font-size: 42px;
+        h1 {
+            font-size: 40px;
         }
 
-        header p {
+        p {
             font-size: 18px;
-            margin-top: 10px;
-        }
-
-        nav {
-            background: rgba(0,0,0,0.7);
-            text-align: center;
-            padding: 15px;
-            position: sticky;
-            top: 0;
-        }
-
-        nav a {
-            color: white;
-            margin: 15px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #ffcc00;
         }
 
         .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
+            padding: 20px;
         }
 
         .card {
             background: white;
-            margin: 25px 0;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: scale(1.03);
-        }
-
-        h2 {
-            margin-bottom: 10px;
-            color: #764ba2;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        footer {
-            text-align: center;
+            color: black;
+            margin: 20px auto;
             padding: 20px;
-            color: white;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
 
         .btn {
             display: inline-block;
             padding: 10px 20px;
-            background: #764ba2;
+            background: #2575fc;
             color: white;
-            border-radius: 25px;
             text-decoration: none;
+            border-radius: 5px;
             margin-top: 10px;
-            transition: 0.3s;
         }
 
         .btn:hover {
-            background: #5a3a85;
+            background: #6a11cb;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Hi, I'm Ragini 👋</h1>
-    <p>Computer Science Student | Future Developer 💻</p>
-</header>
+    <header>
+        <h1>Hi, I'm Ragini 👋</h1>
+        <p>Welcome to my coding website</p>
+    </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Skills</a>
-    <a href="#">Contact</a>
-</nav>
+    <div class="container">
 
-<div class="container">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a student and learning web development. I love coding and creating websites.</p>
+        </div>
 
-    <div class="card">
-        <h2>About Me</h2>
-        <p>Hello! I'm Ragini, a passionate learner in web development. This is my personal website where I showcase my skills and work.</p>
+        <div class="card">
+            <h2>My Skills</h2>
+            <p>HTML, CSS, Basic Programming</p>
+        </div>
+
+        <div class="card">
+            <h2>Contact Me</h2>
+            <p>Email: ragnimishra6287@gmail.com</p>
+            <a href="mailto:ragnimishra6287@gmail.com" class="btn">Email Me</a>
+        </div>
+
     </div>
 
-    <div class="card">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS (Basic)</li>
-            <li>MATLAB</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>Contact</h2>
-        <p>Email: youremail@gmail.com</p>
-        <a href="#" class="btn">Contact Me</a>
-    </div>
-
-</div>
-
-<footer>
-    <p>© 2026 Ragini | Made with ❤️</p>
-</footer>
+    <footer>
+        <p>© 2026 Ragini's Coding</p>
+    </footer>
 
 </body>
 </html>
